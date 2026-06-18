@@ -1,0 +1,18 @@
+# --- RAG slice ---
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.0
+langchain-text-splitters>=0.2.0
+chromadb>=0.5.0
+openai>=1.30.0
+anthropic>=0.39.0          # only needed if GENERATION_PROVIDER=anthropic
+python-dotenv>=1.0.1
+pypdf>=4.2.0
+pandas>=2.2.2
+
+# --- evaluation + observability (Week 16 new tools) ---
+ragas>=0.2.0
+langfuse>=3.0.0
+deepeval>=1.0.0            # Tier A pytest gate
+pytest>=8.0.0
+datasets>=2.19.0          # Ragas EvaluationDataset backend
